@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #cafdff;
+}
+.logo{
+    width: 300px;
+}
+li{
+    list-style: none;
+    padding: 16px;
+}
+ul{
+    display: flex;
+    
+}
+a{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+header{
+    background-color: #eadcff;
+    height: calc(100vh-70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 72px;
+}
+button{
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    border: top 8px;
+    border-bottom: 8px;
+    border-left: 16px;
+    border-right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.subheader{
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+#about,#discrod,#contact{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    
+}
+#about{background-color: #f8ffdc;}
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.about-section{
+display: flex;
+justify-content: center;
+align-self: center;
+}
+.image-about{
+    width: 40%;
+    padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+
+img{
+    width: 100%;
+}
+about-div{
+width:60%;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 24px;
+padding-right: 24px;
+}
+.lorem-text{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+
+
+
+#discord{
+background-color: #cefeff;
+
+}
+
+#contact{
+    background-color: #dce9ff;
+  
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-left: 6px;
+}
